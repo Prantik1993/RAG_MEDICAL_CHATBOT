@@ -1,0 +1,14 @@
+Create a new repository on the command line
+echo "# RAG_MEDICAL_CHATBOT" >> README.md
+git init
+git add README.md
+git branch -M main
+git remote add origin https://github.com/Prantik1993/RAG_MEDICAL_CHATBOT.git(if there then first remove)
+git add .
+git commit -m "first commit"
+git push -u origin main
+
+push an existing repository from the command line
+git remote add origin https://github.com/Prantik1993/RAG_MEDICAL_CHATBOT.git
+git branch -M main
+git push -u origin main
